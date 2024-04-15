@@ -597,10 +597,7 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -10795,4 +10792,11 @@ header.masthead .post-heading .meta a {
   .post-preview > a > .post-title {
     font-size: 2.25rem;
   }
+}
+
+/*Configuración del tamaño de la imagen en la cuadricula*/
+.img-fluid {
+  width: 100%;
+  height: 300px; /* Tamaño deseado para todas las imágenes en la cuadrícula */
+  object-fit: cover; /* Para asegurarte de que las imágenes mantengan su relación de aspecto */
 }
